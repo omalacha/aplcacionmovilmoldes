@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/hospedaje"
+    android:background="@drawable/jardinhoteles"
     tools:context=".Hoteles">
 
     <TextView
@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="DESCUBRE NUESTROS HOTELES"
-        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintVertical_bias="0.4"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="24dp" />
@@ -36,23 +36,14 @@
         android:text="@string/descripcionhoteles" />
 
 
-    <ImageView
-        android:id="@+id/iconohoteles"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/botones"
-        app:layout_constraintTop_toBottomOf="@id/resenahoteles"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.01" />
+
 
     <Button
         android:id="@+id/botonvermashoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#95a532"
-        app:layout_constraintTop_toBottomOf="@id/iconohoteles"
+        app:layout_constraintTop_toBottomOf="@id/resenahoteles"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"

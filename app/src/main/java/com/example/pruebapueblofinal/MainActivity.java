@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         barra.hide();
 
 
-        cancion=MediaPlayer.create(this,R.raw.intro);
+        cancion=MediaPlayer.create(this,R.raw.sonidopajaros);
         cancion.start();
 
         //temporizar la duración del splash
